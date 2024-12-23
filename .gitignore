@@ -1,0 +1,10 @@
+.settings/
+bin/
+.classpath
+.project
+#這個是intilliJ的檔案
+*.idea
+*.iml
+
+
+
