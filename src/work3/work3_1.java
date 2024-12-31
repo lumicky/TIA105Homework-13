@@ -1,16 +1,8 @@
-package work4;
+package work3;
 
-//請設計一隻程式,使用者輸入三個數字後,輸出結果會為正三角形、等腰
-//三角形、其它三角形或不是三角形,如圖示結果:
-//(提示:Scanner,三角形成立條件,判斷式if else)
-//(進階功能:加入直角三角形的判斷)
-
-//平方的API，Math.pow(3,3);
-
-//      要先使用API方便輸入值
 import java.util.Scanner;
 
-public class work41 {
+public class work3_1 {
 	static public void main(String[] args) {
 		System.out.println("請輸出三個正整數");
 //		將API物件化後，使用方法並將方法的回傳值存到三個變數當中(a.b.c)
@@ -30,6 +22,7 @@ public class work41 {
 		}  else {
 			System.out.println("不是三角形");
 		}
+		input.close();
 
 	}
 	
@@ -56,9 +49,5 @@ public class work41 {
 			   Math.pow(a, 2) + Math.pow(c, 2) == Math.pow(b, 2)||
 			   Math.pow(b, 2) + Math.pow(c, 2) == Math.pow(a, 2);
 	}
-		
-		
-	
 
-	
 }
