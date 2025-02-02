@@ -17,22 +17,6 @@ import java.io.ObjectOutputStream;
 
 public class work7_4 {
 //	(1)先將要序列化的類別實作Serializable介面
-//	public static void animal(String location) {
-//		try {
-//			Dog dog1 = new Dog("woow");
-//			Dog dog2 = new Dog("woof");
-//			Cat cat1 = new Cat("meoow");
-//			Cat cat2 = new Cat("meaaa");
-//			FileOutputStream fo = new FileOutputStream(location);
-//			BufferedOutputStream bos = new BufferedOutputStream(fo);
-//			
-//			
-//			
-//		} catch (FileNotFoundException e) {
-//			// TODO Auto-generated catch block
-//			e.printStackTrace();
-//		}
-//	}
 
 	public static void main(String[] args) {
 		// (2)確認資料夾、ser檔案都有準備好

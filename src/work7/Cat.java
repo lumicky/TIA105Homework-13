@@ -3,6 +3,7 @@ package work7;
 import java.io.Serializable;
 
 public class Cat implements Serializable  {
+	private static final long serialVersionUID = 1L;
 	private String name;
 	
 	public Cat(String name) {
